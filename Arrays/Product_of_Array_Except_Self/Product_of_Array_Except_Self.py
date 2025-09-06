@@ -1,7 +1,6 @@
 def FindProduct(nums)->list:
     n = len(nums)
     res = [1] * n
-    print(res)
     prefix = 1
     for i in range(n):
         res[i] = prefix
