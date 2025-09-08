@@ -1,6 +1,6 @@
 class PartitionequalSubset{
     public boolean  Solution (int[] nums){
-        int n=nums.length;
+
         int total=0;
         for(int num : nums){
             total+=num;
